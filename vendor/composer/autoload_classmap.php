@@ -8,7 +8,9 @@ $baseDir = dirname($vendorDir);
 return array(
     'AddColumnsToBusinessTable' => $baseDir . '/database/migrations/2016_07_31_121607_add_columns_to_business_table.php',
     'CreateBusinessTable' => $baseDir . '/database/migrations/2016_07_27_072820_create_business_table.php',
+    'CreateForeignKeysReservationsTable' => $baseDir . '/database/migrations/2016_08_04_134446_create_foreign_keys_reservations_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+    'CreateReservationTable' => $baseDir . '/database/migrations/2016_08_04_104704_create_reservation_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
@@ -478,6 +480,7 @@ return array(
     'PHP_Token_XOR_EQUAL' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
     'PHP_Token_YIELD' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
     'PHP_Token_YIELD_FROM' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
+    'RenameBusinessTable' => $baseDir . '/database/migrations/2016_08_04_084737_rename_business_table.php',
     'RenameOwnersIdToUserId' => $baseDir . '/database/migrations/2016_07_31_094144_rename_owners_id_to_user_id.php',
     'SebastianBergmann\\Comparator\\ArrayComparator' => $vendorDir . '/sebastian/comparator/src/ArrayComparator.php',
     'SebastianBergmann\\Comparator\\Comparator' => $vendorDir . '/sebastian/comparator/src/Comparator.php',

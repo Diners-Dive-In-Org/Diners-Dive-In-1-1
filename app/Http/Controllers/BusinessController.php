@@ -90,7 +90,7 @@ class BusinessController extends Controller
      * Destroy the given business.
      *
      * @param  Request  $request
-     * @param  Business  $business
+     * @param  Business  $restaurant
      * @return Response
      */
     public function destroy(Request $request, Business $business)

@@ -292,7 +292,9 @@ class ComposerStaticInitc1db19e536707ec8d534f1e3773b57d9
     public static $classMap = array (
         'AddColumnsToBusinessTable' => __DIR__ . '/../..' . '/database/migrations/2016_07_31_121607_add_columns_to_business_table.php',
         'CreateBusinessTable' => __DIR__ . '/../..' . '/database/migrations/2016_07_27_072820_create_business_table.php',
+        'CreateForeignKeysReservationsTable' => __DIR__ . '/../..' . '/database/migrations/2016_08_04_134446_create_foreign_keys_reservations_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreateReservationTable' => __DIR__ . '/../..' . '/database/migrations/2016_08_04_104704_create_reservation_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
@@ -762,6 +764,7 @@ class ComposerStaticInitc1db19e536707ec8d534f1e3773b57d9
         'PHP_Token_XOR_EQUAL' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD_FROM' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
+        'RenameBusinessTable' => __DIR__ . '/../..' . '/database/migrations/2016_08_04_084737_rename_business_table.php',
         'RenameOwnersIdToUserId' => __DIR__ . '/../..' . '/database/migrations/2016_07_31_094144_rename_owners_id_to_user_id.php',
         'SebastianBergmann\\Comparator\\ArrayComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/ArrayComparator.php',
         'SebastianBergmann\\Comparator\\Comparator' => __DIR__ . '/..' . '/sebastian/comparator/src/Comparator.php',

@@ -52,7 +52,7 @@
                     <li><a href="{{ url('/home') }}">Home</a></li>
                         @else
                         <li><a href="{{ url('/home') }}">Home</a></li>
-                        <li><a href="{{url('/business/register')}}">Register Business</a></li>
+                        <li><a href="{{url('/business/register')}}">Register Restaurant</a></li>
                         <li><a href="{{url('/business/home')}}">My Profile</a></li>
                         @endif
                 </ul>
