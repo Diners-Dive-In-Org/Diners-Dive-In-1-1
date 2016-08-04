@@ -34,6 +34,10 @@
                                                         </div>
                                                     </div>
                                                 </td>
+                                                <td> <button="submit" id="Edit-task-{{ $single_business->id }}" class="btn btn-danger">
+                                                        <i class="fa fa-btn fa-trash"></i>Edit
+                                                    </button>
+                                                </td>
 
                                                 <td>
                                                     <form action="{{ url('business/'.$single_business->id) }}" method="POST">
