@@ -20,5 +20,13 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 Route::get('/business/home', 'BusinessController@index');
 Route::get('/business/register', 'BusinessController@register');
+
 Route::post('/business', 'BusinessController@store');
 Route::delete('/business/{business}', 'BusinessController@destroy');
+
+Route::patch('/business/{id}',[
+    'as' => 'business.edit',
+    'uses' => 'BusinessController@edit'
+]);
+
+

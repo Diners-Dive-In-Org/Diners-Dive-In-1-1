@@ -26,17 +26,7 @@
                                                 </td>
 
                                                 <td>
-                                                    <div class="form-group">
-                                                        <div class="col-sm-offset-3 col-sm-6">
-                                                            <a href="{{url('/restaurant')}}"><button class="btn btn-default">
-                                                                    <i class="fa fa-plus"></i> Add Restaurant
-                                                                </button></a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td> <button="submit" id="Edit-task-{{ $single_business->id }}" class="btn btn-danger">
-                                                        <i class="fa fa-btn fa-trash"></i>Edit
-                                                    </button>
+                                                    <a href="{{ route('business.edit', $single_business->id) }}" class="btn btn-primary">Edit </a>
                                                 </td>
 
                                                 <td>

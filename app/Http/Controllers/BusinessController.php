@@ -44,6 +44,19 @@ class BusinessController extends Controller
     }
 
     /**
+     * Edit the user's businesses.
+     *
+     * @param  Request  $request
+     * @return Response
+     */
+    public function edit(Request $request)
+    {
+        return view('business/edit', [
+            'business' => $this->business->forUser($request->user()),
+        ]);
+    }
+
+    /**
      * Register a business
      *
      * @param Request $request
