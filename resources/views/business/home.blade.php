@@ -28,6 +28,17 @@
                                                 <td>
                                                     <form action="{{ url('business/'.$single_business->id) }}" method="POST">
                                                         {{ csrf_field() }}
+                                                        {{ method_field('PATCH') }}
+
+                                                        <button type="submit" id="edit-business-{{ $single_business->id }}" class="btn btn-primary">
+                                                            <i class="fa fa-btn fa-edit"></i>Edit
+                                                        </button>
+                                                    </form>
+                                                </td>
+
+                                                <td>
+                                                    <form action="{{ url('business/'.$single_business->id) }}" method="POST">
+                                                        {{ csrf_field() }}
                                                         {{ method_field('DELETE') }}
 
                                                         <button type="submit" id="delete-task-{{ $single_business->id }}" class="btn btn-danger">

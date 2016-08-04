@@ -18,7 +18,18 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
 Route::get('/business/home', 'BusinessController@index');
 Route::get('/business/register', 'BusinessController@register');
 Route::post('/business', 'BusinessController@store');
 Route::delete('/business/{business}', 'BusinessController@destroy');
+
+Route::get('/reservation/home', 'ReservationController@index');
+Route::get('/reservation/register', 'ReservationController@register');
+
+Route::patch('/business/{id}', 'BusinessController@edit');
+
+Route::post('/business/update/{id}',[
+    'as' => 'business/update',
+    'uses' => 'BusinessController@update'
+]);
