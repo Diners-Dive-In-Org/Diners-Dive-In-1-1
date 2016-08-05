@@ -90,6 +90,8 @@
                     <p>make reservations.</p>
                     <img src = "http://image.shutterstock.com/display_pic_with_logo/970306/167577659/stock-photo-smoked-salmon-served-on-a-plate-167577659.jpg" alt = "this pic is not available" width = "300" height = "200">
                     </img>
+                    <img src = "http://media.gettyimages.com/photos/bellagio-interior-picture-id462951023?s=170667a.jpg" alt = "this pic is not available" width = "400" height = "200">
+                    </img>
                 </div>
             </div>
         </div>
